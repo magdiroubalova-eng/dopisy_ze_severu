@@ -1,5 +1,5 @@
 /* ------------------------------ */
-/*  GLOBAL DARK MODE SETTINGS     */
+/*  GLOBAL LIGHT MODE SETTINGS    */
 /* ------------------------------ */
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Bebas+Neue&display=swap');
@@ -11,14 +11,18 @@
 }
 
 body {
-  background-color: #0b0b0c;
-  color: #e6e6e6;
+  background-color: #dadada; /* jemná světle šedá */
+  color: #222; /* jemná černá, ne tvrdá */
   font-family: "Space Mono", monospace;
   line-height: 1.7;
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1.5rem 4rem;
 }
+
+/* ------------------------------ */
+/*  HEADINGS                      */
+/* ------------------------------ */
 
 h1, h2 {
   font-family: "Space Mono", monospace;
@@ -30,14 +34,14 @@ h1 {
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
-  color: #ffffff;
+  color: #ffffff; /* zůstává bílý kvůli hero fotce */
 }
 
 h2 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
   margin-top: 2.5rem;
-  color: #f0f0f0;
+  color: #333;
 }
 
 /* ------------------------------ */
@@ -56,12 +60,12 @@ h2 {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .hero h1 {
   font-size: 3.2rem;
-  font-weight: 700; /* tučný jen nadpis */
+  font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -78,6 +82,7 @@ h2 {
 .section p {
   margin-bottom: 1.2rem;
   font-size: 1.05rem;
+  color: #222;
 }
 
 /* ------------------------------ */
@@ -93,7 +98,7 @@ h2 {
   font-size: 2rem;
   cursor: pointer;
   user-select: none;
-  color: #ffffff;
+  color: #222;
 }
 
 #menu-toggle {
@@ -115,14 +120,14 @@ h2 {
 }
 
 .menu-items a {
-  color: #e6e6e6;
+  color: #333;
   text-decoration: none;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #aaa;
 }
 
 .menu-items a:hover {
-  color: #ffffff;
-  border-color: #ffffff;
+  color: #000;
+  border-color: #000;
 }
 
 /* ------------------------------ */
@@ -131,16 +136,19 @@ h2 {
 
 .photo-block {
   margin-top: 3rem;
-  padding: 2rem 0;
-  background-color: #1a1a1c; /* dramatická islandská šedá */
+  padding: 2rem 1.5rem;
+  background-color: #e0e0e0;
   border-radius: 4px;
   display: flex;
   gap: 16px;
   justify-content: center;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
 }
 
 .photo-block img {
-  width: 50%;
+  max-width: 400px;
+  width: 100%;
   height: auto;
   border-radius: 4px;
   filter: grayscale(100%) contrast(115%);
@@ -153,9 +161,9 @@ h2 {
 blockquote {
   margin-top: 1.5rem;
   padding-left: 1rem;
-  border-left: 2px solid #555;
+  border-left: 2px solid #999;
   font-style: italic;
-  color: #cccccc;
+  color: #555;
 }
 
 /* ------------------------------ */
@@ -166,5 +174,5 @@ footer {
   margin-top: 4rem;
   text-align: center;
   font-size: 0.9rem;
-  color: #888;
+  color: #666;
 }
