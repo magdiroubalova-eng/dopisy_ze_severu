@@ -1,0 +1,170 @@
+/* ------------------------------ */
+/*  GLOBAL DARK MODE SETTINGS     */
+/* ------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0b0b0c;
+  color: #e6e6e6;
+  font-family: "Space Mono", monospace;
+  line-height: 1.7;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+}
+
+h1, h2 {
+  font-family: "Space Mono", monospace;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  margin-top: 2.5rem;
+  color: #f0f0f0;
+}
+
+/* ------------------------------ */
+/*  HERO IMAGE                    */
+/* ------------------------------ */
+
+.hero {
+  position: relative;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  height: 420px;
+  background-image: url("../img/I.III.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  font-weight: 700; /* tučný jen nadpis */
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: center;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+/* ------------------------------ */
+/*  TEXT SECTIONS                 */
+/* ------------------------------ */
+
+.section p {
+  margin-bottom: 1.2rem;
+  font-size: 1.05rem;
+}
+
+/* ------------------------------ */
+/*  HAMBURGER MENU                */
+/* ------------------------------ */
+
+.menu {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.hamburger {
+  font-size: 2rem;
+  cursor: pointer;
+  user-select: none;
+  color: #ffffff;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-items {
+  list-style: none;
+  display: none;
+  margin-top: 1rem;
+}
+
+#menu-toggle:checked + .hamburger + .menu-items {
+  display: block;
+}
+
+.menu-items li {
+  margin-bottom: 0.8rem;
+}
+
+.menu-items a {
+  color: #e6e6e6;
+  text-decoration: none;
+  border-bottom: 1px solid #444;
+}
+
+.menu-items a:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* ------------------------------ */
+/*  PHOTO BLOCK (TWO PHOTOS)      */
+/* ------------------------------ */
+
+.photo-block {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  background-color: #1a1a1c; /* dramatická islandská šedá */
+  border-radius: 4px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.photo-block img {
+  width: 50%;
+  height: auto;
+  border-radius: 4px;
+  filter: grayscale(100%) contrast(115%);
+}
+
+/* ------------------------------ */
+/*  BLOCKQUOTE                    */
+/* ------------------------------ */
+
+blockquote {
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid #555;
+  font-style: italic;
+  color: #cccccc;
+}
+
+/* ------------------------------ */
+/*  FOOTER                        */
+/* ------------------------------ */
+
+footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+}
