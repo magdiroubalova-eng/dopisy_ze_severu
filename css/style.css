@@ -166,6 +166,15 @@ blockquote {
   color: #555;
 }
 
+.quote-author {
+  display: block;
+  text-align: right;
+  margin-top: 0.3rem;
+  font-size: 0.9em;
+  color: #555;        
+  font-style: italic; 
+}
+
 /* ------------------------------ */
 /*  FOOTER                        */
 /* ------------------------------ */
