@@ -64,7 +64,7 @@ h2 {
 }
 
 .hero h1 {
-  font-size: 3.2rem;
+  font-size: 3.6rem;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
@@ -73,6 +73,7 @@ h2 {
   padding: 0.4rem 1rem;
   border-radius: 4px;
   margin-bottom: 2rem;
+  margin-top: -3.5rem;
 }
 
 /* ------------------------------ */
