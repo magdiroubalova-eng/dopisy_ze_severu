@@ -18,6 +18,7 @@ Vznikl jako HTML/CSS webová stránka s důrazem na čistou typografii a atmosf�
 **Struktura projektu** 
 
 
+```
 dopisy_ze_severu/
 ├── index.html        # Hlavní stránka
 ├── css/
@@ -25,7 +26,7 @@ dopisy_ze_severu/
 ├── img/              # Fotografie
 ├── posts/            # Texty (ignorovány Gitem)
 └── README.md
-
+```
 
 **Vlastnosti**
 
