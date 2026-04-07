@@ -1,6 +1,6 @@
 **Dopisy ze Severu**
 
-V tomto projektu najdete mé texty psané na Islandu mezi roky 2017–2025.
+V tomto projektu najdete sbírku textů, které jsem napsala na Islandu mezi roky 2017–2025.
 
 
 **Živá stránka**  
