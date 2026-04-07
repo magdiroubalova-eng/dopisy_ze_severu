@@ -82,6 +82,7 @@ h2 {
 .section p {
   margin-bottom: 1.2rem;
   font-size: 1.05rem;
+  text-align: justify;
   color: #222;
 }
 
