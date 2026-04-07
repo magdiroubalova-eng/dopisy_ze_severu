@@ -44,4 +44,4 @@ na [Czechitas](https://www.czechitas.cz/)
 
 ---
 
-Vytvořeno ze ❤️ a se špetkou nostalgie — Magdalenou Roubalovou
+Vytvořeno ze ♡ a se špetkou nostalgie — Magdalenou Roubalovou
