@@ -1,6 +1,6 @@
 **Dopisy ze Severu**
 
-Najdete zde mé texty psané na Islandu mezi roky 2017–2025.
+V tomto projektu najdete mé texty psané na Islandu mezi roky 2017–2025.
 Některé se jen schovávaly v útrobách mého počítače, jiné doputovaly k lidem, kteří mi byli tehdy blízko.
 Nyní už patří komukoli, kdo si je chce přečíst.
 
