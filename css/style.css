@@ -12,7 +12,7 @@
 
 body {
   background-color: #dadada; /* jemná světle šedá */
-  color: #222; /* jemná černá, ne tvrdá */
+  color: #222; /* jemná černá */
   font-family: "Space Mono", monospace;
   line-height: 1.7;
   max-width: 900px;
@@ -129,11 +129,9 @@ h2 {
   color: #000;
   border-color: #000;
 }
-
 /* ------------------------------ */
-/*  PHOTO BLOCK (TWO PHOTOS)      */
+/*  PHOTO BLOCK                   */
 /* ------------------------------ */
-
 .photo-block {
   margin-top: 3rem;
   padding: 2rem 1.5rem;
@@ -173,6 +171,30 @@ blockquote {
   font-size: 0.9em;
   color: #555;        
   font-style: italic; 
+}
+
+
+/* ------------------------------ */
+/*  KAPITOLA I - ŠEDÉ POZADÍ      */
+/* ------------------------------ */
+
+#kapitola-i {
+
+  background-color: #e0e0e0;
+  padding: 2rem 0;
+  border-radius: 4px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding-left: calc(50vw - 420px);
+  padding-right: calc(50vw - 420px);
+
+}
+
+.subtitle {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
 }
 
 /* ------------------------------ */
