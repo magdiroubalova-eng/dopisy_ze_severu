@@ -10,8 +10,7 @@ V tomto projektu najdete sbírku textů, které jsem napsala na Islandu mezi rok
 
 **O projektu** 
 
-Dopisy ze Severu => osobní literární projekt: sbírka textů psaných na Islandu během mých více či méně pracovních;
-více či méně dlouhodobých návštěv.
+Dopisy ze Severu => osobní literární projekt: sbírka textů psaných na Islandu během mých pracovních pobytů.
 Vznikl jako HTML/CSS webová stránka s důrazem na čistou typografii a atmosféru severské krajiny.
 
 **Struktura projektu** 
@@ -37,7 +36,7 @@ dopisy_ze_severu/
 **Související projekty**
 
 - Tento projekt vznikl během studia Digitální Akademie - Testování
-na [Czechitas](https://www.czechitas.cz/) 
+v [Czechitas](https://www.czechitas.cz/) 
 
 - https://www.koala-away.cz/
 
